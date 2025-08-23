@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header,
@@ -21,7 +20,11 @@ body {
 }
 
 .content{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .footer{
